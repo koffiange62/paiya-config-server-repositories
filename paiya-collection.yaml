@@ -1,0 +1,19 @@
+paiya:
+  business-name: Paiya Events
+  financial:
+    default-currency: xof
+    account:
+      orange:
+        phone-number: +2250707501664
+      wave:
+        phone-number: +2250707501664
+        success-url : ${WAVE_SUCCESS_URL:https://paiya.events/wave/success}
+        error-url : ${WAVE_ERROR_URL:https://paiya.events/wave/error}
+        webhook-secret : ${WAVE_WEBHOOK_SECRET:WH_A24ewqtV07VB}
+      mtn:
+        target-environment: mtnivorycoast
+        paiya-collection :
+          primary-key : 5be7263ea2c54f1197eb2575ce970b58
+          secondary-key : 5dbe51997203451e8285e368cb6272b2
+          user-id : a524ef11-ac00-4e9b-b0c1-ee522c100edf
+          api-key : 81c672dd64ab47ee9d84092a20aa3df8
