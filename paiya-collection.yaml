@@ -13,7 +13,7 @@ paiya:
       mtn:
         target-environment: mtnivorycoast
         paiya-collection :
-          primary-key : 5be7263ea2c54f1197eb2575ce970b58
-          secondary-key : 5dbe51997203451e8285e368cb6272b2
-          user-id : a524ef11-ac00-4e9b-b0c1-ee522c100edf
-          api-key : 81c672dd64ab47ee9d84092a20aa3df8
+          primary-key : "{cipher}5be7263ea2c54f1197eb2575ce970b58"
+          secondary-key : "{cipher}5dbe51997203451e8285e368cb6272b2"
+          user-id : "{cipher}a524ef11-ac00-4e9b-b0c1-ee522c100edf"
+          api-key : "{cipher}81c672dd64ab47ee9d84092a20aa3df8"
