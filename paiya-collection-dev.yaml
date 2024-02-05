@@ -13,7 +13,12 @@ paiya:
       mtn:
         target-environment: mtnivorycoast
         paiya-collection :
-          primary-key : "{cipher}5be7263ea2c54f1197eb2575ce970b58"
-          secondary-key : "{cipher}5dbe51997203451e8285e368cb6272b2"
-          user-id : "{cipher}a524ef11-ac00-4e9b-b0c1-ee522c100edf"
-          api-key : "{cipher}81c672dd64ab47ee9d84092a20aa3df8"
+          primary-key : {cipher}AQCrfyE0satmOzb33Q5q2gKITXkifvchw4dfEuj3+X0PfYpgrwOmXIfAKhkTe2R8cGli2TCFrHsH4uHt8suElVY70boGlQxsRAI52FKVrpvrLU8UWpRsj4qWnrFqjaZTdpCKFjn7G4wVdkG21bSXngNaYojNqRU97yaKTh9SkyJUgdCIkjVJMeC/XM51acc6QSE0er1v/8tyIzdXurhpfwAG7IaPgYjm6KTcrHCydOlRA9cdgBauhDcKBb2eZrNGh+0JQ97pLHD9uVDt25rAcq9P62D+EVcgRK6TfyC2xXLRW5uAy2esromkqq1uCiApLBW3GStNufE2JP9rS8Wgzxtjh/Z2+AeAm+5oXZ4Nwx9nQXkXbKSDGW+LPqKF+poQ0I3c4hGzjPoz6XjU04l4J64SB7cFvSiQHFMcADrH90PjMg==
+          secondary-key : {cipher}AQB/1lp7Ci5lLpliPvqFYDfHT5g10/FiGWInR/l+yH9EzU6JLLWqHgfVRuiph1DUVeyNVGJIqZW/h/yaIah2ArBlPTLoh6K0IiLhlvYzbipaHN/J55+cX1CP65dxsrU0i9c4LyFS8kB94toCLNBAGHJUBDnJd03AHWSv1B+I+V/xYnUKU/MwjiRXdsYOuDTeAM45rNoM1lJAA/tkhfpLKvIQXKXXUm0dULOowoXM5SGrhGsNAGkMtg971ijt0ydH6vo3XrISGVriPMiMqHq780cRa75ZQ/bVXxm4yK9tNG2JazzgIZ6yt2ge7ECZTvwAk2NTF9ZPIUqbHllV3QqNb9xiA8PDQmUuZnWTZFDOminS27DTy5TF0gQWNO1Q36MF+SpLhORd2piyGs7MGh5fBeh0+YDOgFHMHxPAiPKTR6rhwA==
+          user-id : "a524ef11-ac00-4e9b-b0c1-ee522c100edf"
+          api-key : "81c672dd64ab47ee9d84092a20aa3df8"
+
+
+
+keytool -genkeypair -alias config-server-key -keyalg RSA -keysize 4096 -sigalg SHA512withRSA -dname 'CN=Config Server,OU=Spring Cloud,O=Paiya' \
+       -keypass my-k34-s3cr3t -keystore config-server.jks -storepass my-s70r3-s3cr3t
