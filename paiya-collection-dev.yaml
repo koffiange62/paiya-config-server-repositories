@@ -17,8 +17,3 @@ paiya:
           secondary-key : {cipher}AQB/1lp7Ci5lLpliPvqFYDfHT5g10/FiGWInR/l+yH9EzU6JLLWqHgfVRuiph1DUVeyNVGJIqZW/h/yaIah2ArBlPTLoh6K0IiLhlvYzbipaHN/J55+cX1CP65dxsrU0i9c4LyFS8kB94toCLNBAGHJUBDnJd03AHWSv1B+I+V/xYnUKU/MwjiRXdsYOuDTeAM45rNoM1lJAA/tkhfpLKvIQXKXXUm0dULOowoXM5SGrhGsNAGkMtg971ijt0ydH6vo3XrISGVriPMiMqHq780cRa75ZQ/bVXxm4yK9tNG2JazzgIZ6yt2ge7ECZTvwAk2NTF9ZPIUqbHllV3QqNb9xiA8PDQmUuZnWTZFDOminS27DTy5TF0gQWNO1Q36MF+SpLhORd2piyGs7MGh5fBeh0+YDOgFHMHxPAiPKTR6rhwA==
           user-id : "a524ef11-ac00-4e9b-b0c1-ee522c100edf"
           api-key : "81c672dd64ab47ee9d84092a20aa3df8"
-
-
-
-keytool -genkeypair -alias config-server-key -keyalg RSA -keysize 4096 -sigalg SHA512withRSA -dname 'CN=Config Server,OU=Spring Cloud,O=Paiya' \
-       -keypass my-k34-s3cr3t -keystore config-server.jks -storepass my-s70r3-s3cr3t
