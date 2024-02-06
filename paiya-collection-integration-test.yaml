@@ -4,7 +4,14 @@ paiya:
     default-currency: xof
     account:
       orange:
+        orange:
         phone-number: +2250707501664
+        target-environment: dev
+        success-url: https://paiya.events/orange/success
+        error-url: https://paiya.events/orange/error
+        return-url: https://paiya.events/orange/return
+        cancel-url: https://paiya.events/orange/cancel
+        notif-url: https://paiya.events/orange/notif
       wave:
         phone-number: +2250707501664
         success-url : ${WAVE_SUCCESS_URL:https://paiya.events/wave/success}
