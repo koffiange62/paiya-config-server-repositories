@@ -1,0 +1,19 @@
+paiya:
+  business-name: Paiya Events
+  financial:
+    default-currency: xof
+    account:
+      orange:
+        phone-number: +2250707501664
+      wave:
+        phone-number: +2250707501664
+        success-url : ${WAVE_SUCCESS_URL:https://paiya.events/wave/success}
+        error-url : ${WAVE_ERROR_URL:https://paiya.events/wave/error}
+        webhook-secret : ${WAVE_WEBHOOK_SECRET:WH_A24ewqtV07VB}
+      mtn:
+        target-environment: mtnivorycoast
+        paiya-collection :
+          primary-key : '{cipher}AQCrfyE0satmOzb33Q5q2gKITXkifvchw4dfEuj3+X0PfYpgrwOmXIfAKhkTe2R8cGli2TCFrHsH4uHt8suElVY70boGlQxsRAI52FKVrpvrLU8UWpRsj4qWnrFqjaZTdpCKFjn7G4wVdkG21bSXngNaYojNqRU97yaKTh9SkyJUgdCIkjVJMeC/XM51acc6QSE0er1v/8tyIzdXurhpfwAG7IaPgYjm6KTcrHCydOlRA9cdgBauhDcKBb2eZrNGh+0JQ97pLHD9uVDt25rAcq9P62D+EVcgRK6TfyC2xXLRW5uAy2esromkqq1uCiApLBW3GStNufE2JP9rS8Wgzxtjh/Z2+AeAm+5oXZ4Nwx9nQXkXbKSDGW+LPqKF+poQ0I3c4hGzjPoz6XjU04l4J64SB7cFvSiQHFMcADrH90PjMg=='
+          secondary-key : '{cipher}AQB/1lp7Ci5lLpliPvqFYDfHT5g10/FiGWInR/l+yH9EzU6JLLWqHgfVRuiph1DUVeyNVGJIqZW/h/yaIah2ArBlPTLoh6K0IiLhlvYzbipaHN/J55+cX1CP65dxsrU0i9c4LyFS8kB94toCLNBAGHJUBDnJd03AHWSv1B+I+V/xYnUKU/MwjiRXdsYOuDTeAM45rNoM1lJAA/tkhfpLKvIQXKXXUm0dULOowoXM5SGrhGsNAGkMtg971ijt0ydH6vo3XrISGVriPMiMqHq780cRa75ZQ/bVXxm4yK9tNG2JazzgIZ6yt2ge7ECZTvwAk2NTF9ZPIUqbHllV3QqNb9xiA8PDQmUuZnWTZFDOminS27DTy5TF0gQWNO1Q36MF+SpLhORd2piyGs7MGh5fBeh0+YDOgFHMHxPAiPKTR6rhwA=='
+          user-id : "a524ef11-ac00-4e9b-b0c1-ee522c100edf"
+          api-key : "81c672dd64ab47ee9d84092a20aa3df8"
