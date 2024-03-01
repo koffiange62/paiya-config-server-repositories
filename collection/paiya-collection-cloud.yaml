@@ -9,19 +9,19 @@ paiya:
       orange:
         phone-number: '{cipher}AQAfgc15oMNr+gkAJ9/Fi6MdIgrF8LNi1kkOxII1vOhHBjI/tGIh/FoRpA2rkWjmwoXwWwvdm4rNilXw0/q8Ce4GfsHsYpzqf37Ph+2rAJG2Bjc42UQY8+xUYLzcSe5mw8rSAxz6hMla7cqG0YjmyII3K3qgjOqcVj/H6eF18lF+vKWlOCpPkjhX7XFUJ9M6r+2E9xsambVJh9UiELWjXFnm7bCaxWFkZ2U2+89J/uLeDNnmjj/0wbG/O9OXMdpQ0JlViQYAA0CcOS36RyLMNaQmdAs2sOUr/GV5axbNgGRawxNEzqx4oSVD8NZnePiL6CDTpHUFWb/7pSBBMwkYJXKpt3g7zMIPs60fAZW2i2ByKuq51vtV4dhH0qyyGsnfV+k='
         credentials:
-          client-id:
-          client-secret:
-          api-key:
-          
+          client-id: 'invalid'
+          client-secret: 'invalid'
+          api-key: 'invalid'
+
       wave:
         phone-number: '{cipher}AQCPk5Gfpav/HDTppcy5kLr9veqLRyhl1FskKjmrQVKhJt8/dwBhrkgoI2ebp27Mk+5fpgqc5tAtgR/ZaFvUJ97gRrKLCV9l2qAHIBlqObc/wC9cWbS5DAgEeRTPOOnRg6kGezln4pDw9O04laFojVVBxKQ3XfV4nXn3lCaQUNHsqyE7msAv/zWgyagDipHKHxgme5pFWwbUeRkXHG89KdZLHm3fmXsd0JaxCtP0ljI3XVVUoiVrNlXyqUqwJOwLy4ESGfLbwB4KLRzMGLI20Dp/CvBbUyR4QzFx0ERt74SVqjV0MduN81FqItgOa9jL2ZEviF/vw/r7T2Br7Hq4zWVKiFppZdfZrIr+ZgliCo2BDBpnSlk7EITpd2Ljnnp4mZc='
         success-url : https://paiya.events/wave/success
         error-url : https://paiya.events/wave/error
         webhook-secret : '{cipher}AQCvr4PiKhh47GwUKVOJ5U4p3zPKF3kh3MUeuyOm9KIt0JxKQoujG0ulPTUlOSQhCvAb0py954Zly+nrTrIN/tcE65rKQJPvpGOgmpQytHKlYnLkeOpw8H3TrhHuMG1sRyQLwAudejJAqnL4VvKzVxgltt2r2x5MwKSx1ub1ulkNATbt14FUzSJGkJRWneBKEBGU73rgNpH1QO6+pAZe1qwq1TFm4gz9a0HDT25MDKDEx/f2bItwrul5uw9nTDKHZqfkTEblJXRvGvXrXs9azjJb04IDx7uyCc/ml2rro1sdhNcBxOvC0qTf5z1aOhZHrS5Ke7mm7SeDfiQekxP/4MPqAEINYhSrw5h3SxID49UCapoE1wTLcg9M+Ti6q3EUGao='
         credentials:
-          client-id:
-          client-secret:
-          api-key:
+          client-id: 'invalid'
+          client-secret: 'invalid'
+          api-key: 'invalid'
 
       mtn:
         phone-number: '{cipher}AQCo2LuoWKFsUhovMlSf8U6iBuQt1ERqmKncCqRblNwgUh+lAtYiP8+SvulXw7hja8in+cc0toCCUC1pTssQaTNt9SawaXL9oGlaHORty7czAF9Wc0a3VSz8Tl6Cp+ByaDDRb6i3rkqSpjnkW6ob7uG6aS5uMv14n5Cj7XzvsmRJE2AidJ7mzD5xFOGbYdsiJdhQsLgBNy2DfjJwAynUy4VxKzyxab5deMopy6043rSAILXVYHF2GMAtr0sIKiNgRcrpysfsPlEOx8ePrFJXc/gDa+AQJqtqkAY2KXtePOR/PLvi48GhhMhGAHS8qLYtTnuEI7wvvJlCGV9CeLfacEhw8eKRx9Zq/O3A9gf08QtMg8HLBzOhLe0ZNQHpKMh98iI='
