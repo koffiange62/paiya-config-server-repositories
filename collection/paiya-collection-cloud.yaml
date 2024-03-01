@@ -8,15 +8,26 @@ paiya:
     account:
       orange:
         phone-number: '{cipher}AQAfgc15oMNr+gkAJ9/Fi6MdIgrF8LNi1kkOxII1vOhHBjI/tGIh/FoRpA2rkWjmwoXwWwvdm4rNilXw0/q8Ce4GfsHsYpzqf37Ph+2rAJG2Bjc42UQY8+xUYLzcSe5mw8rSAxz6hMla7cqG0YjmyII3K3qgjOqcVj/H6eF18lF+vKWlOCpPkjhX7XFUJ9M6r+2E9xsambVJh9UiELWjXFnm7bCaxWFkZ2U2+89J/uLeDNnmjj/0wbG/O9OXMdpQ0JlViQYAA0CcOS36RyLMNaQmdAs2sOUr/GV5axbNgGRawxNEzqx4oSVD8NZnePiL6CDTpHUFWb/7pSBBMwkYJXKpt3g7zMIPs60fAZW2i2ByKuq51vtV4dhH0qyyGsnfV+k='
+        credentials:
+          client-id:
+          client-secret:
+          api-key:
+          
       wave:
         phone-number: '{cipher}AQCPk5Gfpav/HDTppcy5kLr9veqLRyhl1FskKjmrQVKhJt8/dwBhrkgoI2ebp27Mk+5fpgqc5tAtgR/ZaFvUJ97gRrKLCV9l2qAHIBlqObc/wC9cWbS5DAgEeRTPOOnRg6kGezln4pDw9O04laFojVVBxKQ3XfV4nXn3lCaQUNHsqyE7msAv/zWgyagDipHKHxgme5pFWwbUeRkXHG89KdZLHm3fmXsd0JaxCtP0ljI3XVVUoiVrNlXyqUqwJOwLy4ESGfLbwB4KLRzMGLI20Dp/CvBbUyR4QzFx0ERt74SVqjV0MduN81FqItgOa9jL2ZEviF/vw/r7T2Br7Hq4zWVKiFppZdfZrIr+ZgliCo2BDBpnSlk7EITpd2Ljnnp4mZc='
         success-url : https://paiya.events/wave/success
         error-url : https://paiya.events/wave/error
         webhook-secret : '{cipher}AQCvr4PiKhh47GwUKVOJ5U4p3zPKF3kh3MUeuyOm9KIt0JxKQoujG0ulPTUlOSQhCvAb0py954Zly+nrTrIN/tcE65rKQJPvpGOgmpQytHKlYnLkeOpw8H3TrhHuMG1sRyQLwAudejJAqnL4VvKzVxgltt2r2x5MwKSx1ub1ulkNATbt14FUzSJGkJRWneBKEBGU73rgNpH1QO6+pAZe1qwq1TFm4gz9a0HDT25MDKDEx/f2bItwrul5uw9nTDKHZqfkTEblJXRvGvXrXs9azjJb04IDx7uyCc/ml2rro1sdhNcBxOvC0qTf5z1aOhZHrS5Ke7mm7SeDfiQekxP/4MPqAEINYhSrw5h3SxID49UCapoE1wTLcg9M+Ti6q3EUGao='
+        credentials:
+          client-id:
+          client-secret:
+          api-key:
+
       mtn:
         phone-number: '{cipher}AQCo2LuoWKFsUhovMlSf8U6iBuQt1ERqmKncCqRblNwgUh+lAtYiP8+SvulXw7hja8in+cc0toCCUC1pTssQaTNt9SawaXL9oGlaHORty7czAF9Wc0a3VSz8Tl6Cp+ByaDDRb6i3rkqSpjnkW6ob7uG6aS5uMv14n5Cj7XzvsmRJE2AidJ7mzD5xFOGbYdsiJdhQsLgBNy2DfjJwAynUy4VxKzyxab5deMopy6043rSAILXVYHF2GMAtr0sIKiNgRcrpysfsPlEOx8ePrFJXc/gDa+AQJqtqkAY2KXtePOR/PLvi48GhhMhGAHS8qLYtTnuEI7wvvJlCGV9CeLfacEhw8eKRx9Zq/O3A9gf08QtMg8HLBzOhLe0ZNQHpKMh98iI='
         target-environment: mtnivorycoast
-        paiya-collection :
+        credentials :
+          subscription-key-name: Ocp-Apim-Subscription-Key
           primary-key : '{cipher}AQCrfyE0satmOzb33Q5q2gKITXkifvchw4dfEuj3+X0PfYpgrwOmXIfAKhkTe2R8cGli2TCFrHsH4uHt8suElVY70boGlQxsRAI52FKVrpvrLU8UWpRsj4qWnrFqjaZTdpCKFjn7G4wVdkG21bSXngNaYojNqRU97yaKTh9SkyJUgdCIkjVJMeC/XM51acc6QSE0er1v/8tyIzdXurhpfwAG7IaPgYjm6KTcrHCydOlRA9cdgBauhDcKBb2eZrNGh+0JQ97pLHD9uVDt25rAcq9P62D+EVcgRK6TfyC2xXLRW5uAy2esromkqq1uCiApLBW3GStNufE2JP9rS8Wgzxtjh/Z2+AeAm+5oXZ4Nwx9nQXkXbKSDGW+LPqKF+poQ0I3c4hGzjPoz6XjU04l4J64SB7cFvSiQHFMcADrH90PjMg=='
           secondary-key : '{cipher}AQB/1lp7Ci5lLpliPvqFYDfHT5g10/FiGWInR/l+yH9EzU6JLLWqHgfVRuiph1DUVeyNVGJIqZW/h/yaIah2ArBlPTLoh6K0IiLhlvYzbipaHN/J55+cX1CP65dxsrU0i9c4LyFS8kB94toCLNBAGHJUBDnJd03AHWSv1B+I+V/xYnUKU/MwjiRXdsYOuDTeAM45rNoM1lJAA/tkhfpLKvIQXKXXUm0dULOowoXM5SGrhGsNAGkMtg971ijt0ydH6vo3XrISGVriPMiMqHq780cRa75ZQ/bVXxm4yK9tNG2JazzgIZ6yt2ge7ECZTvwAk2NTF9ZPIUqbHllV3QqNb9xiA8PDQmUuZnWTZFDOminS27DTy5TF0gQWNO1Q36MF+SpLhORd2piyGs7MGh5fBeh0+YDOgFHMHxPAiPKTR6rhwA=='
           user-id : '{cipher}AQAAk7FztPdgDp9Rwz94T+PpeNGNyznOwSBBGToNQmaclE7korjZBWXAfGGdFk7+5g/h7ya9IxGJgq/WeE+2Oglaof9XCg8nIhRP/OSWbRwVKwswMfl9riYBQZJbZ586RQpBEn0Wl3RTt+cqiTcW3wyKH+2A3h/Ri1X+EYV7dDdwWB1MRTM0INhATLaHKnzxBfLoUWzpJDZB9yEFnprRQlthp05QQBw9szP05ge6EpqU553TakD9s0wrB4tqfKeaiXHdVjJzjA3sa211yuDe3/SzK8aTqIf7k9WcbtTAhto5PG7t9ZraLC3XEHvRyh8uEwQi9xTmkzt4r8+O+Mlk2ljeivNTBIznW1Oj8LFlQ/ORaHP5qsID+FleSfUMHGzu1f31MKAYdWZvokaQrE6OpGEc0skNwQmUsoZHQYNNT1MDGQ=='
